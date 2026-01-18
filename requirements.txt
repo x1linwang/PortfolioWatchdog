@@ -1,0 +1,9 @@
+streamlit
+mcp
+openai
+yfinance
+beautifulsoup4
+requests
+numpy
+nest_asyncio
+mcp-tavily
