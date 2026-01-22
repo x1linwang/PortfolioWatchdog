@@ -6,7 +6,6 @@ import requests
 import os
 
 # --- CONFIGURATION ---
-# INSTRUCTOR: Paste the Discord Webhook URL here.
 # Guide: Discord Server -> Edit Channel -> Integrations -> Webhooks -> New Webhook
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 

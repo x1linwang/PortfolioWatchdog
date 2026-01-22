@@ -83,10 +83,16 @@ To test the **Real-time Alert System**, you need to give the Agent a destination
     * Click **New Webhook**.
     * Name it "Agent Smith" (or whatever you want).
     * Click **Copy Webhook URL**.
-4.  **Configure the Code:**
-    * Open `server.py` in your code editor.
-    * Find the line: `DISCORD_WEBHOOK_URL = "..."`
-    * Paste your copied URL inside the quotes.
+4.  **Configure the Webhook:**
+**Mac/Linux:**
+```bash
+export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
+```
+
+**Windows (Powershell):**
+```powershell
+$env:DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
+```
 
 *Note: Do not share this URL publicly, or anyone can post messages to your channel.*
 
