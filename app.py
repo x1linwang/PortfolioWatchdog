@@ -15,7 +15,7 @@ db.init_db()
 LOCAL_SERVER_PATH = os.path.join(os.path.dirname(__file__), "server.py")
 TAVILY_KEY = os.environ.get("TAVILY_API_KEY")
 
-st.set_page_config(page_title="AI Hedge Fund", layout="wide")
+st.set_page_config(page_title="Portfolio Watchdog", layout="wide")
 
 # --- AUTHENTICATION ---
 if "user" not in st.session_state: st.session_state.user = None
